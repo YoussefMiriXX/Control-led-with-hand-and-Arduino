@@ -9,7 +9,7 @@
 
 import pyfirmata # Importe le module pyfirmata pour communiquer avec Arduino
 
-comport='dev/ttyUSB0' # Définit le port COM sur lequel est connecté Arduino (normalement c'est dev/ttyUSB0)
+comport='/dev/ttyUSB0' # Définit le port COM sur lequel est connecté Arduino (normalement c'est /dev/ttyUSB0)
 
 # Initialise une connexion avec Arduino sur le port spécifié
 board=pyfirmata.Arduino(comport)
